@@ -1,0 +1,8 @@
+.github/workflows/main_application-api-scoring.yml
+.vscode/
+__pycache__/
+app/requirements.txt
+env_p7/
+mlruns/
+tests_unitaires/__pycache__/
+yml_file/
