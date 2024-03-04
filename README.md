@@ -1,4 +1,4 @@
-# scoring_project
+# Implémentez un modèle de scoring
 ### Présentation:
 * L’entreprise souhaite mettre en œuvre un outil de “scoring crédit” pour calculer la probabilité qu’un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé.
 * Elle souhaite donc développer un algorithme de classification en s’appuyant sur des sources de données variées (données comportementales, données provenant d'autres institutions financières, etc.).
@@ -21,7 +21,7 @@ Nous avons traiter la base de données de 'Home-Credit-Default', le jeux de donn
     - Permettre de visualiser des informations descriptives relatives à un client (via un système de filtre).
     - Permettre de comparer les informations descriptives relatives à un client à l’ensemble des clients ou à un groupe de clients similaires.
       
-  ## Spécifités teckniques:
+  ## Spécifités techniques:
   - Realiser un dashboard interactif avec streamlit.
   - Tester la mise en oeuvre d’une démarche de type MLOps d’automatisation et d’industrialisation de la gestion du cycle de vie du modèle.
   - Tester l’utilisation de la librairie evidently pour détecter dans le futur du Data Drift en production.
@@ -37,5 +37,15 @@ Nous avons traiter la base de données de 'Home-Credit-Default', le jeux de donn
   - creer un score “métier” (minimisation du coût d’erreur de prédiction des FN et FP) pour comparer les modèles, afin de choisir le meilleur modèle et ses meilleurs hyperparamètres.
   -  Attention cette minimisation du coût métier doit passer par l’optimisation du seuil qui détermine, à partir d’une probabilité, la classe 0 ou 1 (un “predict” suppose un seuil à 0.5 qui n’est pas forcément l’optimum).
   -  En parallèle, maintenez pour comparaison et contrôle des mesures plus techniques, telles que l’AUC et l’accuracy.
-  -  Execution des testes unitaires comme preuves de pipeline de déploiement continu.
-
+  -  Execution des testes unitaires comme preuves de pipeline de déploiement continu
+  
+## Compétences évaluées:
+- Déployer un modèle via une API dans le Web
+- Réaliser un dashboard pour présenter son travail de modélisation
+- Rédiger une note méthodologique afin de communiquer sa démarche de modélisation
+- Utiliser un logiciel de version de code pour assurer l’intégration du modèle
+- Présenter son travail de modélisation à l'oral
+- Définir et mettre en œuvre une stratégie de suivi de la performance d’un modèle
+- Définir et mettre en œuvre un pipeline d’entraînement des modèles
+- Définir la stratégie d’élaboration d’un modèle d’apprentissage supervisé
+- Évaluer les performances des modèles d’apprentissage supervisé
